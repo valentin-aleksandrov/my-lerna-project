@@ -2,6 +2,9 @@
   "version": "independent",
   "npmClient": "npm",
   "useWorkspaces": false,
+  "workspaces": [
+    "packages/*"
+  ],
   "command": {
     "publish": {
       "conventionalCommits": true
